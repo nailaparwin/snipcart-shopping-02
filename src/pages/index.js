@@ -6,6 +6,11 @@ export default function Home() {
       <div>
         Hello world!
       </div>
+      <div style={{ margin: "20px", padding: "20px"}}>
+        <button className="snipcart-checkout"> Click to checkout</button>
+        <span className="snipcart-items-count"></span><br/>
+        <span className="snipcart-total-price"></span>
+      </div>
       <button 
       className="snipcart-add-item"
       data-item-id="formal-shoe"
